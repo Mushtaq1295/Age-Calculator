@@ -1,0 +1,74 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rethink Sans";
+}
+
+#dob{
+    margin-top: 50px;
+    width: auto;
+    height: 60px;
+    padding: 10px;
+}
+#calBtn{
+    margin-top: 30px;
+    height: 40px;
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('my_image3.jpeg');
+    /* background-image: url('../Countdown/my_image3.jpeg'); */
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.title{
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+}
+.col{
+    width: 900px;
+    height: 200px;
+    /* border: 1px solid red; */
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+input{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255,0.8);
+    text-align: center;
+    font-size: xx-large;
+}
+#days{
+    margin-top: 40px;
+    font-size: xx-large;
+}
+
